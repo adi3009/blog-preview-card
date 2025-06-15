@@ -1,0 +1,22 @@
+.author {
+    display: flex;
+    align-items: center;
+    inline-size: fit-content;
+    min-inline-size: var(--min-width);
+}
+
+.author__image {
+    width: 2rem;
+}
+
+.author__name {
+    color: var(--color-gray-950);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-extra-bold);
+    margin-inline-start: var(--space-150);
+}
+
+.author__name:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+:root {
+    font-size: calc(0.4em + 1vw);
+}
+
+body {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "figtree", serif;
+    font-size: var(--font-size-normal);
+}
+
+.tag {
+    background-color: var(--color-primary);
+    border-radius: var(--space-50);
+    color: var(--color-gray-950);
+    display: inline-block;
+    font-weight: var(--font-weight-extra-bold);
+    font-size: var(--font-size-small);
+    padding: var(--space-50) var(--space-150);
+    text-align: center;
+    margin-inline-end: var(--space-100);
+    margin-block-end: var(--space-100);
+}
+
+footer {
+    display: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,26 @@
+:root {
+    --color-primary: #f4d04e;
+    --color-gray-950: #111111;
+    --color-gray-500: #6b6b6b;
+    --color-white: #ffffff;
+    --color-focus: #eeeeee;
+
+    --font-weight-extra-bold: 900;
+    --font-weight-medium: 500;
+
+    --font-size-big: 1.5rem;
+    --font-size-normal: 1rem;
+    --font-size-small: 0.875rem;
+
+    --line-height-default: 150%;
+    --letter-spacing-default: 0;
+
+    --min-width: 18.75rem;
+
+    --space-300: 1.5rem;
+    --space-250: 1.25rem;
+    --space-150: 0.75rem;
+    --space-125: 0.625rem;
+    --space-100: 0.5rem;
+    --space-50: 0.25rem;
+}
